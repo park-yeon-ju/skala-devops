@@ -69,3 +69,7 @@ GitHub Actions 는 임시 저장소를 만들어 실제 GitHub 에서 실행했�
 - [ ] image tag 는 git sha 로 고정하고 `latest` 는 배포에 쓰지 않는다
 - [ ] 반 공용 Harbor 계정 대신 프로젝트별 robot 계정을 사용한다
 - [ ] Argo CD `admin` 초기 비밀번호 변경, `argocd-initial-admin-secret` 삭제
+
+## 내 실습 기록
+
+- 2026-10-23 2장 Git: 로컬 repository 만들고 GitHub 에 push
