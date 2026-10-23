@@ -20,7 +20,11 @@ target/
 .DS_Store
 
 # 비밀 — 한 번이라도 push 하면 history 에 남아 지워도 소용없다
+# .env, .env.local, .env.prod 처럼 이름이 바뀐 것도 모두 막는다 (어느 폴더에 있든)
 .env
+.env.*
+# 예외: 값 없이 변수 이름만 적은 견본 파일은 올려도 된다
+!.env.example
 *.pem
 *.key
 application-local.yml
